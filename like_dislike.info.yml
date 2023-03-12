@@ -1,0 +1,6 @@
+name: Drupla 8 coustom module.
+type: module
+description: 'Create custom module for like and dislike'.
+version: 8.x
+core:8.x
+package: content

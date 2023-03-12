@@ -1,0 +1,23 @@
+<html>
+    <head>
+<script>
+    function textCounter(field, field2, maxlimit){
+        console.log(field);
+        console.log(field2);
+        console.log(maxlimit);
+        var countfield = document.getElementsById(field2);
+        if(field.value.length > maxlimit){
+            field.value = fiel.value.substring(0,maxlimit);
+            return false;
+        }
+        else{
+            countfield.value = maxlimit - field.value.length;
+        }
+    }
+</script>
+    </head>
+    <body>
+        <input type="textare" name="textare" id="textarea" size="3" value="150">
+        <textarea onkeyup="textCounter(this, 'counterl',350);" id="message"></textarea>
+    </body>
+</html>

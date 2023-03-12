@@ -1,0 +1,8 @@
+7.A: Select c.cust_name, s.name, s.city from salesman s Inner join 
+    Custmoer C ON salesman.salesman_id = Custmoer.salesman_id GroupBy s.city;
+
+7.B: select * from orders WHERE purch_amt > avg(purch_amt) and ord_date ='2012-10-10';
+
+7.c: select e.emp_id, e.emp_name, e.salary, d.dep_name from department D Inner join 
+    Employees E ON department.dept_ID = Employees.dept_id Employees job_namein ('MANAGER', 'ANALIST') and (sysdaste()-employee.hire_date)>5 and Employees.commision <0 order by Group by department.dept_location asc
+    department.dept_location('SYDNEY','MELBORNUE');

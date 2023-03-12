@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            function count(){
+                var element = document.getElementById('count1');
+                var count = element.childElementCount;
+                document.getElementById('out').innerHTML = 'number of child element';
+            }
+        </script>
+    </head>
+    <body>
+        <div id="count1">
+            <p>Apple</p>
+            <p>Orange</p>
+            <p>Banana</p>
+            <p>Kiwi</p>
+            <p>Grapes</p>
+            <p>Mango</p>
+        </div>
+        <button type="butt" onclick="count()">Click Me</button>
+        <p id="out"></p>
+
+    </body>
+</html>
